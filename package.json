@@ -1,0 +1,52 @@
+{
+    "author": "sms77 e.K. <support@sms77.io> (https://www.sms77.io/)",
+    "dependencies": {
+        "@material-ui/core": "^4.11.4",
+        "@material-ui/icons": "^4.11.2",
+        "react": "^17.0.2",
+        "react-dom": "^17.0.2"
+    },
+    "description": "Extension for sending SMS & making Text-To-Speech calls via Sms77.io",
+    "devDependencies": {
+        "@babel/core": "^7.14.6",
+        "@babel/preset-env": "^7.14.7",
+        "@babel/preset-react": "^7.14.5",
+        "@hot-loader/react-dom": "^17.0.1",
+        "@types/lodash": "^4.14.170",
+        "@types/react": "^17.0.11",
+        "babel-loader": "^8.2.2",
+        "babel-preset-react-app": "^10.0.0",
+        "clean-webpack-plugin": "^4.0.0-alpha.0",
+        "copy-webpack-plugin": "^9.0.1",
+        "css-loader": "^5.2.6",
+        "file-loader": "^6.2.0",
+        "fs-extra": "^10.0.0",
+        "html-loader": "^2.1.2",
+        "html-webpack-plugin": "^5.3.2",
+        "lodash": "^4.17.21",
+        "react-hot-loader": "^4.13.0",
+        "sass-loader": "^12.1.0",
+        "style-loader": "^3.0.0",
+        "url-loader": "^4.1.1",
+        "webextension-polyfill": "^0.8.0",
+        "webpack": "^5.40.0",
+        "webpack-cli": "^4.7.2",
+        "webpack-dev-server": "^3.11.2",
+        "write-file-webpack-plugin": "^4.5.1"
+    },
+    "homepage": "https://github.com/sms77io/browser",
+    "license": "MIT",
+    "name": "@sms77.io/browser",
+    "private": true,
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/sms77io/browser"
+    },
+    "scripts": {
+        "build": "NODE_ENV=production npm run build-chrome && npm run build-firefox",
+        "build-chrome": "BUILD_TARGET=chrome webpack",
+        "build-firefox": "BUILD_TARGET=firefox webpack",
+        "dev": "NODE_ENV=development npm run build-chrome"
+    },
+    "version": "3.0.0"
+}

@@ -1,0 +1,196 @@
+{
+    "api_key": {
+        "message": "API Key"
+    },
+    "api_key_get": {
+        "message": "Get yours now at: "
+    },
+    "api_key_info": {
+        "message": "API key from sms77.io required for sending. Get yours now at Sms77.io."
+    },
+    "api_key_required": {
+        "message": "API key from sms77.io required for sending"
+    },
+    "api_key_set": {
+        "message": "Please head to the options page and set your API key in order to send messages."
+    },
+    "close": {
+        "message": "Close"
+    },
+    "collect_phones": {
+        "message": "Collect Numbers"
+    },
+    "confirm_delete_number": {
+        "message": "Do you really want to delete this number?"
+    },
+    "debug": {
+        "message": "Debug"
+    },
+    "delete": {
+        "message": "Delete"
+    },
+    "error_text": {
+        "message": "You must specify a valid message content."
+    },
+    "error_to": {
+        "message": "SMS: Phone number(s) and/or address book entries. Voice: Exactly one number."
+    },
+    "error_url": {
+        "message": "Invalid URL for request: '$url$'. Please contact Sms77 on info@sms77.io.",
+        "placeholders": {
+            "url": {
+                "content": "$1",
+                "example": "https://gateway.sms77.io/api/balance?p=MyDummyApiKey!!"
+            }
+        }
+    },
+    "flash": {
+        "message": "Flash"
+    },
+    "foreign_id": {
+        "message": "Foreign ID"
+    },
+    "from": {
+        "message": "From"
+    },
+    "from_info": {
+        "message": "Please notice that if you set a default value, you will not be asked again before sending messages."
+    },
+    "from_restrictions_sms": {
+        "message": "A maximum of 16 numeric or 11 alphanumeric characters."
+    },
+    "from_restrictions_voice": {
+        "message": "Must be a verified or shared number."
+    },
+    "general": {
+        "message": "General"
+    },
+    "label": {
+        "message": "Label"
+    },
+    "message_status": {
+        "message": "Message Status"
+    },
+    "message_type": {
+        "message": "Message Type"
+    },
+    "msg_dispatch_error": {
+        "message": "An error occurred while sending $type$ to '$to$'. The returned error code is: '$errorCode$'.",
+        "placeholders": {
+            "errorCode": {
+                "content": "$3",
+                "example": "900"
+            },
+            "to": {
+                "content": "$2",
+                "example": "+4901234567890"
+            },
+            "type": {
+                "content": "$1",
+                "example": "SMS"
+            }
+        }
+    },
+    "msg_dispatch_success": {
+        "message": "$type$ successfully sent to '$to$' from '$from$': $text$",
+        "placeholders": {
+            "type": {
+                "content": "$1",
+                "example": "SMS"
+            },
+            "to": {
+                "content": "$2",
+                "example": "+4901234567890"
+            },
+            "from": {
+                "content": "$3",
+                "example": "Tim the Tester"
+            },
+            "text": {
+                "content": "$4",
+                "example": "HI2U!"
+            }
+        }
+    },
+    "notification_title": {
+        "message": "sms77io has something to say..."
+    },
+    "number": {
+        "message": "Number"
+    },
+    "options": {
+        "message": "Options"
+    },
+    "performance_tracking": {
+        "message": "Performance Tracking"
+    },
+    "phone_collector": {
+        "message": "Phone Collector"
+    },
+    "prompt_from": {
+        "message": "You may enter a sender identifier. You can set a default one in the settings."
+    },
+    "prompt_text": {
+        "message": "Please enter the message content."
+    },
+    "prompt_to": {
+        "message": "Please enter a recipient phone number or address book entry."
+    },
+    "send_message": {
+        "message": "Send Message"
+    },
+    "send_sms": {
+        "message": "Send SMS"
+    },
+    "send_voice": {
+        "message": "Send Voice"
+    },
+    "settings_updated": {
+        "message": "Your settings have been updated."
+    },
+    "settings_updated_title": {
+        "message": "Settings updated!"
+    },
+    "signature": {
+        "message": "Signature"
+    },
+    "signature_label": {
+        "message": "Signature added to all outgoing messages"
+    },
+    "signature_position": {
+        "message": "Signature Position"
+    },
+    "signature_position_append": {
+        "message": "Append after text"
+    },
+    "signature_position_prepend": {
+        "message": "Prepend before text"
+    },
+    "sms77browser": {
+        "message": "Sms77.io"
+    },
+    "submit": {
+        "message": "Submit"
+    },
+    "text": {
+        "message": "Text"
+    },
+    "to": {
+        "message": "To"
+    },
+    "to_info": {
+        "message": "Please notice that if you set a default 'to' value you will not be asked again before sending messages."
+    },
+    "toggle": {
+        "message": "Toggle"
+    },
+    "toggle_all": {
+        "message": "Toggle All"
+    },
+    "voice": {
+        "message": "Voice"
+    },
+    "xml": {
+        "message": "XML"
+    }
+}

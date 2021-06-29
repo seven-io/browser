@@ -1,0 +1,196 @@
+{
+    "api_key": {
+        "message": "API-Schlüssel"
+    },
+    "api_key_get": {
+        "message": "Erhalten Sie ihren Schlüssel jetzt: "
+    },
+    "api_key_info": {
+        "message": "API-Schlüssel von Sms77.io erforderlich zum Versenden. Erhalten Sie ihren Schlüssel jetzt auf Sms77.io."
+    },
+    "api_key_required": {
+        "message": "API-Schlüssel von Sms77.io erforderlich für Versand"
+    },
+    "api_key_set": {
+        "message": "Bitte in den Optionen Ihren API-Schlüssel eingeben um SMS versenden zu können."
+    },
+    "close": {
+        "message": "Schließen"
+    },
+    "collect_phones": {
+        "message": "Nummern sammeln"
+    },
+    "confirm_delete_number": {
+        "message": "Möchten Sie diese Nummer wirklich löschen?"
+    },
+    "debug": {
+        "message": "Debug"
+    },
+    "delete": {
+        "message": "Löschen"
+    },
+    "error_text": {
+        "message": "Sie müssen einen gültigen Nachrichteninhalt angeben."
+    },
+    "error_to": {
+        "message": "SMS: Empfänger in Form von Rufnummer(n) und/oder Adressbucheinträgen. Sprachnachricht: Exakt eine Rufnummer."
+    },
+    "error_url": {
+        "message": "Ungültige Adresse für Anfrage: '$url$'. Bitte kontaktieren SIe Sms77 via info@sms77.io.",
+        "placeholders": {
+            "url": {
+                "content": "$1",
+                "example": "https://gateway.sms77.io/api/balance?p=MyDummyApiKey!!"
+            }
+        }
+    },
+    "flash": {
+        "message": "Flash"
+    },
+    "foreign_id": {
+        "message": "Foreign ID"
+    },
+    "from": {
+        "message": "Absenderkennung"
+    },
+    "from_info": {
+        "message": "Wird hier die Absenderkennung gesetzt, wird beim Verfassen nicht erneut danach gefragt."
+    },
+    "from_restrictions_sms": {
+        "message": "Maximal 16 numerische oder 11 alphanumerische Zeichen."
+    },
+    "from_restrictions_voice": {
+        "message": "Muss eine verifizierte oder geteilte Rufnummer sein."
+    },
+    "general": {
+        "message": "Allgemein"
+    },
+    "label": {
+        "message": "Label"
+    },
+    "message_status": {
+        "message": "Nachrichtenstatus"
+    },
+    "message_type": {
+        "message": "Nachrichtentyp"
+    },
+    "msg_dispatch_error": {
+        "message": "Ein Fehler trat auf beim $type$-Versand an '$to$'. Der Fehlercode lautet: '$errorCode$'.",
+        "placeholders": {
+            "errorCode": {
+                "content": "$3",
+                "example": "900"
+            },
+            "to": {
+                "content": "$2",
+                "example": "+4901234567890"
+            },
+            "type": {
+                "content": "$1",
+                "example": "SMS"
+            }
+        }
+    },
+    "msg_dispatch_success": {
+        "message": "$type$ versendet an '$to$' von '$from$': $text$",
+        "placeholders": {
+            "type": {
+                "content": "$1",
+                "example": "SMS"
+            },
+            "to": {
+                "content": "$2",
+                "example": "+4901234567890"
+            },
+            "from": {
+                "content": "$3",
+                "example": "Tim der Tester"
+            },
+            "text": {
+                "content": "$4",
+                "example": "Guten Tag!"
+            }
+        }
+    },
+    "notification_title": {
+        "message": "sms77io hat was zu erzählen..."
+    },
+    "number": {
+        "message": "Nummer"
+    },
+    "options": {
+        "message": "Optionen"
+    },
+    "performance_tracking": {
+        "message": "Performance Tracking"
+    },
+    "phone_collector": {
+        "message": "Nummernsammler"
+    },
+    "prompt_from": {
+        "message": "Sie können eine Absenderkennung eingeben. Ein Standardwert kann in den Optionen gesetz werden."
+    },
+    "prompt_text": {
+        "message": "Bitte geben Sie den Nachrichteninhalt ein."
+    },
+    "prompt_to": {
+        "message": "Bitte geben Sie Rufnummer(n) und/oder Adressbucheinträge ein."
+    },
+    "send_message": {
+        "message": "Nachricht versenden"
+    },
+    "send_sms": {
+        "message": "SMS senden"
+    },
+    "send_voice": {
+        "message": "Sprachnachricht senden"
+    },
+    "settings_updated": {
+        "message": "Ihre Einstellungen wurden aktualisiert."
+    },
+    "settings_updated_title": {
+        "message": "Einstellungen aktualisiert!"
+    },
+    "signature": {
+        "message": "Signatur"
+    },
+    "signature_label": {
+        "message": "Signatur zu allen ausgehenden Nachrichten hinzufügen"
+    },
+    "signature_position": {
+        "message": "Signatur-Position"
+    },
+    "signature_position_append": {
+        "message": "Signatur anhängen"
+    },
+    "signature_position_prepend": {
+        "message": "Signatur voranstellen"
+    },
+    "sms77browser": {
+        "message": "Sms77.io"
+    },
+    "submit": {
+        "message": "Absenden"
+    },
+    "text": {
+        "message": "Nachrichteninhalt"
+    },
+    "to": {
+        "message": "Adressat(en)"
+    },
+    "to_info": {
+        "message": "Info: Wird hier das Feld \"Adressat(en)\" gesetzt, werden Sie beim Verfassen nicht erneut danach gefragt"
+    },
+    "toggle": {
+        "message": "Auswählen"
+    },
+    "toggle_all": {
+        "message": "Alle auswählen"
+    },
+    "voice": {
+        "message": "Sprachnachricht"
+    },
+    "xml": {
+        "message": "XML"
+    }
+}
