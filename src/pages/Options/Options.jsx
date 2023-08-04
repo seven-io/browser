@@ -1,5 +1,8 @@
 import React, {useEffect, useState} from 'react';
-import {Box, Button, Container, Typography} from '@material-ui/core';
+import Box from '@mui/material/Box';
+import Button from '@mui/material/Button';
+import Container from '@mui/material/Container';
+import Typography from '@mui/material/Typography';
 import browser from 'webextension-polyfill';
 import {General} from '../../util/General';
 import Settings from '../../util/Settings';
@@ -31,7 +34,7 @@ export const Options = () => {
     return <Container>
         <Box component='form' onSubmit={handleSubmit}>
             <Typography variant='h1'>
-                Sms77 {browser.i18n.getMessage('options')}
+                seven {browser.i18n.getMessage('options')}
             </Typography>
 
             <GeneralOptions setState={setState} state={state}/>

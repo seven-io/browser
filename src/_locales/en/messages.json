@@ -6,10 +6,10 @@
         "message": "Get yours now at: "
     },
     "api_key_info": {
-        "message": "API key from sms77.io required for sending. Get yours now at Sms77.io."
+        "message": "API key from seven.io required for sending. Get yours now at seven.io."
     },
     "api_key_required": {
-        "message": "API key from sms77.io required for sending"
+        "message": "API key from seven.io required for sending"
     },
     "api_key_set": {
         "message": "Please head to the options page and set your API key in order to send messages."
@@ -36,11 +36,11 @@
         "message": "SMS: Phone number(s) and/or address book entries. Voice: Exactly one number."
     },
     "error_url": {
-        "message": "Invalid URL for request: '$url$'. Please contact Sms77 on info@sms77.io.",
+        "message": "Invalid URL for request: '$url$'. Please contact seven on info@seven.io.",
         "placeholders": {
             "url": {
                 "content": "$1",
-                "example": "https://gateway.sms77.io/api/balance?p=MyDummyApiKey!!"
+                "example": "https://gateway.seven.io/api/balance?p=MyDummyApiKey!!"
             }
         }
     },
@@ -113,7 +113,7 @@
         }
     },
     "notification_title": {
-        "message": "sms77io has something to say..."
+        "message": "seven has something to say..."
     },
     "number": {
         "message": "Number"
@@ -166,8 +166,8 @@
     "signature_position_prepend": {
         "message": "Prepend before text"
     },
-    "sms77browser": {
-        "message": "Sms77.io"
+    "sevenbrowser": {
+        "message": "seven.io"
     },
     "submit": {
         "message": "Submit"

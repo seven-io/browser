@@ -6,10 +6,10 @@
         "message": "Erhalten Sie ihren Schlüssel jetzt: "
     },
     "api_key_info": {
-        "message": "API-Schlüssel von Sms77.io erforderlich zum Versenden. Erhalten Sie ihren Schlüssel jetzt auf Sms77.io."
+        "message": "API-Schlüssel von seven.io erforderlich zum Versenden. Erhalten Sie ihren Schlüssel jetzt auf seven.io."
     },
     "api_key_required": {
-        "message": "API-Schlüssel von Sms77.io erforderlich für Versand"
+        "message": "API-Schlüssel von seven.io erforderlich für Versand"
     },
     "api_key_set": {
         "message": "Bitte in den Optionen Ihren API-Schlüssel eingeben um SMS versenden zu können."
@@ -36,11 +36,11 @@
         "message": "SMS: Empfänger in Form von Rufnummer(n) und/oder Adressbucheinträgen. Sprachnachricht: Exakt eine Rufnummer."
     },
     "error_url": {
-        "message": "Ungültige Adresse für Anfrage: '$url$'. Bitte kontaktieren SIe Sms77 via info@sms77.io.",
+        "message": "Ungültige Adresse für Anfrage: '$url$'. Bitte kontaktieren Sie seven via info@seven.io.",
         "placeholders": {
             "url": {
                 "content": "$1",
-                "example": "https://gateway.sms77.io/api/balance?p=MyDummyApiKey!!"
+                "example": "https://gateway.seven.io/api/balance?p=MyDummyApiKey!!"
             }
         }
     },
@@ -113,7 +113,7 @@
         }
     },
     "notification_title": {
-        "message": "sms77io hat was zu erzählen..."
+        "message": "seven hat was zu erzählen..."
     },
     "number": {
         "message": "Nummer"
@@ -166,8 +166,8 @@
     "signature_position_prepend": {
         "message": "Signatur voranstellen"
     },
-    "sms77browser": {
-        "message": "Sms77.io"
+    "sevenbrowser": {
+        "message": "seven.io"
     },
     "submit": {
         "message": "Absenden"

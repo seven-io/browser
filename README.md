@@ -1,8 +1,8 @@
-![Sms77 Logo](https://www.sms77.io/wp-content/uploads/2019/07/sms77-Logo-400x79.png "sms77")
+![](https://www.seven.io/wp-content/uploads/Logo.svg "seven Logo")
 
 # Browser Extension for [Firefox](https://addons.mozilla.org/en-US/firefox/addon/sms77-add-on/) & [Chrome](https://chrome.google.com/webstore/detail/sms77io/cljclabcjnjklhogdanmfmdmpebmcbjo)
 
-Send SMS and issue text-to-speech calls via the Sms77.io SMS gateway.
+Send SMS and issue text-to-speech calls via the seven.io SMS gateway.
 
 Parse all phone numbers of a website for mass messaging.
 See [screenshot](_screenshots/phone_collector_sms.png).
@@ -12,8 +12,8 @@ and [Opera](https://www.opera.com/).
 
 ## Prerequisites
 
-You need an API key in order to make use of the Sms77.io SMS gateway. Get yours now at
-sms77.io!
+You need an API key in order to make use of the seven.io SMS gateway. Get yours now at
+seven.io!
 
 ### Installation
 
@@ -45,6 +45,6 @@ sms77.io!
 
 ### Support
 
-Need help? Feel free to [contact us](https://www.sms77.io/en/company/contact/).
+Need help? Feel free to [contact us](https://www.seven.io/en/company/contact/).
 
 [![MIT](https://img.shields.io/badge/License-MIT-teal.svg)](LICENSE)

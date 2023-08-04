@@ -1,6 +1,8 @@
-import {Button, Grid, Typography} from '@material-ui/core';
+import Grid from '@mui/material/Grid';
+import Button from '@mui/material/Button';
+import Typography from '@mui/material/Typography';
 import browser from 'webextension-polyfill';
-import {Close} from '@material-ui/icons';
+import Close from '@mui/icons-material/Close';
 import React from 'react';
 
 export const Header = () => {

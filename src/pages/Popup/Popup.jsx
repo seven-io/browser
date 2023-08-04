@@ -6,7 +6,7 @@ import {OptionsButton} from './OptionsButton';
 import {SmsButton} from './SmsButton';
 import {VoiceButton} from './VoiceButton';
 import {PhoneCollectorButton} from './PhoneCollectorButton';
-import {Grid} from '@material-ui/core';
+import Grid from '@mui/material/Grid';
 
 export const Popup = () => {
     const [apiKey, setApiKey] = useState(null);
@@ -25,7 +25,7 @@ export const Popup = () => {
     };
 
     return <Grid alignItems='center' container direction='column' justify='center'>
-        <img src={logo} alt='Sms77 logo'
+        <img src={logo} alt='seven logo'
              style={{marginBottom: '15px', marginTop: '15px', maxWidth: '150px'}}/>
 
         <OptionsButton/>

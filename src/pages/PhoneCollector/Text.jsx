@@ -1,4 +1,4 @@
-import {TextField} from '@material-ui/core';
+import TextField from '@mui/material/TextField';
 import browser from 'webextension-polyfill';
 import React from 'react';
 

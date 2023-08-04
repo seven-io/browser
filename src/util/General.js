@@ -38,7 +38,7 @@ export class General {
     }
 
     static async post(endpoint, apiKey, body) {
-        const response = await fetch(`https://gateway.sms77.io/api/${endpoint}`, {
+        const response = await fetch(`https://gateway.seven.io/api/${endpoint}`, {
             body: JSON.stringify(body),
             headers: {
                 Accept: 'application/json',

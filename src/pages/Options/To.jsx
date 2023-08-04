@@ -1,5 +1,5 @@
 import React from 'react';
-import {TextField} from '@material-ui/core';
+import TextField from '@mui/material/TextField';
 import browser from 'webextension-polyfill';
 
 export const To = ({handleChange, value}) => <TextField

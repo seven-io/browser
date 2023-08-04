@@ -1,7 +1,7 @@
 import browser from 'webextension-polyfill';
 import {General} from './util/General';
 
-const iframeName = 'sms77_collected_phones';
+const iframeName = 'seven_collected_phones';
 
 browser.runtime.onMessage.addListener(async data => {
     const {action, menuItemId} = data;
@@ -17,11 +17,11 @@ browser.runtime.onMessage.addListener(async data => {
 
     else if ('menuItemId' in data) switch (menuItemId) {
         case 'collect':
-            const {sms77browser} = await browser.storage.local.get('sms77browser');
+            const {sevenbrowser} = await browser.storage.local.get('sevenbrowser');
 
             await browser.storage.local.set({
-                sms77browser: {
-                    ...(sms77browser || {}),
+                sevenbrowser: {
+                    ...(sevenbrowser || {}),
                     collectedPhones: General.collectNumbers(),
                 }
             });

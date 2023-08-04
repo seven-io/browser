@@ -1,5 +1,5 @@
 {
-    "author": "sms77 e.K.",
+    "author": "LICENSE",
     "background": {
         "scripts": [
             "background.bundle.js"
@@ -30,7 +30,7 @@
         "128": "icon128.png"
     },
     "manifest_version": 2,
-    "name": "__MSG_sms77browser__",
+    "name": "__MSG_sevenbrowser__",
     "options_ui": {
         "browser_style": true,
         "page": "options.html"
@@ -41,7 +41,7 @@
         "notifications",
         "storage",
         "tabs",
-        "*://gateway.sms77.io/*"
+        "*://gateway.seven.io/*"
     ],
     "version": "_gets_replaced_by_webpack_",
     "web_accessible_resources": [

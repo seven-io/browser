@@ -1,4 +1,5 @@
-import {Button, ButtonGroup} from '@material-ui/core';
+import Button from '@mui/material/Button';
+import ButtonGroup from '@mui/material/ButtonGroup';
 import browser from 'webextension-polyfill';
 import React from 'react';
 

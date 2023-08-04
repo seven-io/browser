@@ -100,7 +100,7 @@ module.exports = {
                             content.options_ui.chrome_style = true;
                             content.options_ui.open_in_tab = true;
                         } else {
-                            content.applications = {gecko: {id: 'firefox@sms77.io'}};
+                            content.applications = {gecko: {id: 'firefox@seven.io'}};
                             content.developer = {
                                 name: 'André Matthies',
                                 url: 'https://github.com/matthiez',

@@ -1,5 +1,6 @@
 import React from 'react';
-import {Checkbox, FormControlLabel} from '@material-ui/core';
+import FormControlLabel from '@mui/material/FormControlLabel';
+import Checkbox from '@mui/material/Checkbox';
 import browser from 'webextension-polyfill';
 
 export const LabeledCheckbox = ({checked, handleChange, label}) => <FormControlLabel

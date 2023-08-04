@@ -1,8 +1,8 @@
 import {LabeledCheckbox} from '../../components/LabeledCheckbox';
 import React from 'react';
-import {Grid, TextField} from '@material-ui/core';
+import Grid from '@mui/material/Grid';
+import TextField from '@mui/material/TextField';
 import browser from 'webextension-polyfill';
-
 
 export const ExtraOptions = ({extras, setExtras, type}) => {
     const toExtraBool = k => {

@@ -1,6 +1,6 @@
 import React from 'react';
 import browser from 'webextension-polyfill';
-import {TextField} from '@material-ui/core';
+import TextField from '@mui/material/TextField';
 
 export const ApiKey = ({handleChange, value}) => <TextField
     helperText={browser.i18n.getMessage('api_key_info')}

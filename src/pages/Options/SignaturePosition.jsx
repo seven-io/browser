@@ -1,5 +1,6 @@
 import React from 'react';
-import {MenuItem, Select} from '@material-ui/core';
+import Select from '@mui/material/Select';
+import MenuItem from '@mui/material/MenuItem';
 import browser from 'webextension-polyfill';
 
 const options = {

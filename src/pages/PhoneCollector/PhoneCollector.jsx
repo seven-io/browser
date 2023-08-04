@@ -1,6 +1,8 @@
 import React, {useEffect, useState} from 'react';
 import browser from 'webextension-polyfill';
-import {Box, Button, Container} from '@material-ui/core';
+import Box from '@mui/material/Box';
+import Button from '@mui/material/Button';
+import Container from '@mui/material/Container';
 import {General} from '../../util/General';
 import Settings from '../../util/Settings';
 import {From} from '../../components/From';
@@ -20,8 +22,8 @@ export const PhoneCollector = () => {
     const [extras, setExtras] = useState({});
 
     useEffect(() => {
-        browser.storage.local.get('sms77browser')
-            .then(({sms77browser}) => setPhones(sms77browser.collectedPhones))
+        browser.storage.local.get('sevenbrowser')
+            .then(({sevenbrowser}) => setPhones(sevenbrowser.collectedPhones))
             .catch(console.error);
     }, []);
 

@@ -1,4 +1,5 @@
-import {Grid, Typography} from '@material-ui/core';
+import Grid from '@mui/material/Grid';
+import Typography from '@mui/material/Typography';
 import browser from 'webextension-polyfill';
 import {ApiKey} from './ApiKey';
 import {To} from './To';
