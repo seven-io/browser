@@ -40,7 +40,6 @@
         "contextMenus",
         "notifications",
         "storage",
-        "tabs",
         "*://gateway.seven.io/*"
     ],
     "version": "_gets_replaced_by_webpack_",

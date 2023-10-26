@@ -45,6 +45,6 @@ seven.io!
 
 ### Support
 
-Need help? Feel free to [contact us](https://www.seven.io/en/company/contact/).
+Need help? Feel free to [contact us](https://www.seven.io/en/company/contact).
 
 [![MIT](https://img.shields.io/badge/License-MIT-teal.svg)](LICENSE)
