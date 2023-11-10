@@ -48,9 +48,9 @@
     },
     "scripts": {
         "build": "cross-env npm run build-chrome && npm run build-firefox",
-        "build-chrome": "cross-env NODE_ENV=production BUILD_TARGET=chrome webpack",
-        "build-firefox": "cross-env NODE_ENV=production BUILD_TARGET=firefox webpack",
-        "dev": "cross-env NODE_ENV=development BUILD_TARGET=chrome webpack"
+        "build-chrome": "cross-env NODE_ENV=production BUILD_TARGET=chrome webpack --mode=production",
+        "build-firefox": "cross-env NODE_ENV=production BUILD_TARGET=firefox webpack --mode=production",
+        "dev": "cross-env NODE_ENV=development BUILD_TARGET=chrome webpack serve --hot --mode=development"
     },
     "version": "4.0.0"
 }

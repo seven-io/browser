@@ -8,8 +8,9 @@ const CleanPlugin = require('clean-webpack-plugin').CleanWebpackPlugin;
 const CopyPlugin = require('copy-webpack-plugin');
 const HtmlPlugin = require('html-webpack-plugin');
 const WriteFilePlugin = require('write-file-webpack-plugin');
-const buildPath = path.join(__dirname, 'build', process.env.BUILD_TARGET);
+const ReactRefreshWebpackPlugin = require('@pmmmwh/react-refresh-webpack-plugin');
 
+const buildPath = path.join(__dirname, 'build', process.env.BUILD_TARGET);
 const srcPath = path.join(__dirname, 'src');
 const pagesPath = path.join(srcPath, 'pages');
 const fileExtensions = ['png', 'svg'];
@@ -33,7 +34,6 @@ module.exports = {
         phoneCollector: path.join(pagesPath, 'PhoneCollector', 'index.jsx'),
         popup: path.join(pagesPath, 'Popup', 'index.jsx'),
     },
-    mode: isDev ? 'development' : 'production',
     module: {
         rules: [
             {
@@ -64,23 +64,22 @@ module.exports = {
             },
             {
                 exclude: /node_modules/,
-                test: /\.m?[j|t]sx?$/,
+                test: /\.[jt]sx?$/,
                 use: {
                     loader: require.resolve('babel-loader'),
                     options: {
                         plugins: [
                             isDev && require.resolve('react-refresh/babel')
                         ].filter(Boolean),
-                        presets: [
-                            'react-app',
-                        ],
+                        presets: [require.resolve('@babel/preset-react')],
                     },
                 },
             },
         ],
     },
     optimization: {
-        minimize: !isDev
+        minimize: !isDev,
+        sideEffects: true,
     },
     output: {
         filename: '[name].bundle.js',
@@ -127,9 +126,9 @@ module.exports = {
         pageTemplate('popup'),
         pageTemplate('phoneCollector'),
         new WriteFilePlugin,
-    ],
+        isDev && new ReactRefreshWebpackPlugin
+    ].filter(Boolean),
     resolve: {
         extensions: fileExtensions.map(ext => `.${ext}`).concat(['.css', '.js', '.jsx']),
     },
-    watch: isDev,
 };
