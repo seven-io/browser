@@ -1,6 +1,9 @@
-import React from 'react';
-import {render} from 'react-dom';
-import {PhoneCollector} from './PhoneCollector';
-import {General} from '../../util/General';
+import React from 'react'
+import ReactDOM from 'react-dom/client'
+import {PhoneCollector} from './PhoneCollector'
+import {General} from '../../util/General'
+import Layout from '../../components/Layout'
 
-render(<PhoneCollector/>, document.getElementById(General.WRAPPER_ID));
+const root = ReactDOM.createRoot(document.getElementById(General.WRAPPER_ID))
+
+root.render(<Layout><PhoneCollector/></Layout>)
