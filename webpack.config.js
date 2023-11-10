@@ -22,6 +22,9 @@ const pageTemplate = name => new HtmlPlugin({
 });
 
 module.exports = {
+    devServer: {
+        hot: true,
+    },
     devtool: isDev ? 'cheap-module-source-map' : undefined,
     entry: {
         background: path.join(pagesPath, 'Background', 'index.js'),
@@ -36,24 +39,24 @@ module.exports = {
             {
                 exclude: /node_modules/,
                 test: /\.css$/i,
-                use: ['style-loader', 'css-loader'],
+                use: [require.resolve('style-loader'), require.resolve('css-loader')],
             },
             {
                 exclude: /node_modules/,
-                loader: 'file-loader',
+                loader: require.resolve('file-loader'),
                 options: {name: '[name].[ext]'},
                 test: new RegExp(`.(${fileExtensions.join('|')})$`),
             },
             {
                 exclude: /node_modules/,
-                loader: 'html-loader',
+                loader: require.resolve('html-loader'),
                 test: /\.html$/,
             },
             {
                 exclude: /node_modules/,
                 test: /\.(gif|jpeg|jpg|png)$/i,
                 use: {
-                    loader: 'url-loader',
+                    loader: require.resolve('url-loader'),
                     options: {
                         limit: 8192,
                     },
@@ -63,11 +66,11 @@ module.exports = {
                 exclude: /node_modules/,
                 test: /\.m?[j|t]sx?$/,
                 use: {
-                    loader: 'babel-loader',
+                    loader: require.resolve('babel-loader'),
                     options: {
                         plugins: [
-                            'react-hot-loader/babel',
-                        ],
+                            isDev && require.resolve('react-refresh/babel')
+                        ].filter(Boolean),
                         presets: [
                             'react-app',
                         ],
@@ -126,9 +129,6 @@ module.exports = {
         new WriteFilePlugin,
     ],
     resolve: {
-        alias: {
-            'react-dom': '@hot-loader/react-dom',
-        },
         extensions: fileExtensions.map(ext => `.${ext}`).concat(['.css', '.js', '.jsx']),
     },
     watch: isDev,
