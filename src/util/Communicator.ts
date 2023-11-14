@@ -19,10 +19,6 @@ export default class Communicator {
                               text,
                               to,
                           }: MessageOptions) {
-        console.log('Communicator.dispatch.from', from)
-        console.log('Communicator.dispatch.text', text)
-        console.log('Communicator.dispatch.to', to)
-
         try {
             const apiKey = await Valuenator.apiKey()
 
@@ -65,7 +61,6 @@ export default class Communicator {
     }
 
     protected async post(apiKey: string, body: {}) {
-        console.log('Communicator.post', {endpoint: this.type, apiKey, body})
         const response = await fetch(`https://gateway.seven.io/api/${this.type}`, {
             body: JSON.stringify(body),
             headers: {

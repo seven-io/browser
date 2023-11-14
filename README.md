@@ -12,7 +12,8 @@ and [Opera](https://www.opera.com/).
 
 ## Prerequisites
 
-You need an API key in order to make use of the seven.io SMS gateway. Get yours now at
+You need an [API key](https://help.seven.io/en/api-key-access) in order to make use of the seven.io
+SMS gateway. Get yours now at
 seven.io!
 
 ### Installation
