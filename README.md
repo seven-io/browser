@@ -1,4 +1,4 @@
-![](https://www.seven.io/wp-content/uploads/Logo.svg "seven Logo")
+<img src="https://www.seven.io/wp-content/uploads/Logo.svg" width="250" />
 
 # Browser Extension for [Firefox](https://addons.mozilla.org/en-US/firefox/addon/sms77-add-on/) & [Chrome](https://chrome.google.com/webstore/detail/sms77io/cljclabcjnjklhogdanmfmdmpebmcbjo)
 
