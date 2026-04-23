@@ -11,7 +11,7 @@
     },
     "description": "Extension for sending SMS & making Text-To-Speech calls via seven.io",
     "devDependencies": {
-        "@pmmmwh/react-refresh-webpack-plugin": "^0.5.11",
+        "@pmmmwh/react-refresh-webpack-plugin": "^0.5.17",
         "@samrum/vite-plugin-web-extension": "^5.0.0",
         "@types/chrome": "^0.0.251",
         "@types/lodash": "^4.14.201",
@@ -21,14 +21,14 @@
         "@types/webextension-polyfill": "^0.10.6",
         "@vitejs/plugin-react": "^4.1.1",
         "cross-env": "^7.0.3",
-        "lodash": "^4.17.21",
+        "lodash": "^4.18.1",
         "react-refresh": "^0.14.0",
         "ts-node": "^10.9.1",
         "type-fest": "^4.7.1",
         "typescript": "^5.2.2",
-        "vite": "^4.5.0",
+        "vite": "^6.4.2",
         "vite-tsconfig-paths": "^4.2.1",
-        "web-ext": "^7.8.0"
+        "web-ext": "^10.1.0"
     },
     "homepage": "https://github.com/seven-io/browser",
     "license": "MIT",
